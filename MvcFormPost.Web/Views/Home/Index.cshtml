@@ -1,0 +1,14 @@
+﻿<h2>Index</h2>
+
+@using(var form = Html.BeginForm("update", "home", FormMethod.Post))
+{
+	<div>
+		@Html.TextBox("TextValue")
+	</div>
+	<div>
+		@Html.CheckBox("CheckValue")
+	</div>
+	<div>
+		<input type="submit" />
+	</div>
+}
